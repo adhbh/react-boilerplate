@@ -1,8 +1,8 @@
 import React from 'react';
 
-exort default class App extends React.Component {
+export default class App extends React.Component {
 	render () {
-		rerturn (
+		return (
 				<div>
 					<h1>Hello World</h1>
 				</div>
