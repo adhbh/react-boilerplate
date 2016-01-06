@@ -14,11 +14,13 @@
     "babel-preset-react-hmre": "^1.0.1",
     "babel-preset-stage-1": "^6.3.13",
     "eventsource-polyfill": "^0.9.6",
+    "express": "^4.13.3",
     "webpack": "^1.12.9",
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0"
   },
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adheesh Bhatia (adheeshbhatia@gmail.com)",
