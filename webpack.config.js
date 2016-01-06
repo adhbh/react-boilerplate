@@ -18,10 +18,19 @@ module.exports = {
 		new webpack.NoErrorsPlugin()
 	],
 	module: {
-		loaders: [{
-			test: /\.js/,
-			loader: 'babel',
-			include: path.join(__dirname, 'src')
-		}]
-	}
+		loaders: [
+			{
+				test: /\.js/,
+				loader: 'babel',
+				include: path.join(__dirname, 'src')
+			},
+			{
+				test: /\.css/,
+				loaders: ['style', 'css?modules&importLoaders=1&localIdentName=[local]___[name]__[has:base64:5]','postcss'],
+			}
+		]
+	},
+	postcss: [
+		require('autoprefixer')
+	]
 };
