@@ -7,3 +7,7 @@ A minimal dev-environment for building React Apps with live code editing and mod
 npm install
 npm start
 ```
+
+### TO-DO
+Redux, Redux-simple-router, Redux-dev-tools,linting,testing,production.
+
